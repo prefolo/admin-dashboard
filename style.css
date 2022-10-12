@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border:1px solid red;
+    xborder:1px solid red;
 }
 
 ul {
@@ -102,15 +102,13 @@ body{
     gap: 10px;
 }
 
-#btns-container>* {
-    margin-left: 20px;
-}
-
 #btns-container > button {
     background-color: rgb(64, 113, 173);
     color: #fff;
     padding: 10px 20px;
     border-radius: 100px;
+    border:0;
+    margin-left: 20px;
 }
 
 input[type="search"]{
@@ -133,6 +131,7 @@ input[type="search"]{
 
 #hi{
     font-size: 14px;
+    align-self: flex-end;
 }
 #profile-name{
     font-size: 16px;
