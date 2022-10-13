@@ -19,6 +19,9 @@ a:visited{
 
 button {
     cursor: pointer;
+    appearance: none;
+    border: 0;
+    background-color: transparent;
 }
 
 /* main layout */
