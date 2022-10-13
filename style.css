@@ -54,8 +54,8 @@ body{
 
 #sidebar{
     display: grid;
-    grid-template-rows: 50px 200px;
-    padding: 10px;
+    grid-template-rows: 50px 340px;
+    padding: 20px;
 }
 
 #logo{
@@ -65,9 +65,10 @@ body{
     gap: 10px;
 }
 #sidebar a{
-        display: flex;
-        gap: 10px;
-        font-size: 22px;
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    margin-bottom: 18px;
 }
 
 .sidebar-links{
