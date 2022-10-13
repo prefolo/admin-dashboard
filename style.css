@@ -54,11 +54,24 @@ body{
 
 #sidebar{
     display: grid;
-    grid-template-rows: 100px 200px;
+    grid-template-rows: 50px 200px;
+    padding: 10px;
 }
 
-#sidebar li{
-    margin-bottom: 10px;
+#logo{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    gap: 10px;
+}
+#sidebar a{
+        display: flex;
+        gap: 10px;
+        font-size: 22px;
+}
+
+.sidebar-links{
+    margin-top: 40px;
 }
 
 /* header */
