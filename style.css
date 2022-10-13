@@ -17,6 +17,10 @@ a:visited{
     color: #fff;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* main layout */
 
 body{
@@ -187,7 +191,7 @@ input[type="search"]{
     gap: 10px;
 }
 
-/* right-sidebar */
+/* main-content right-sidebar */
 
 #right-sidebar>p {
     font-weight: bold;
@@ -197,7 +201,10 @@ input[type="search"]{
     flex-direction: column;
     padding-left:20px;
 }
-#announcements-container {
+
+/* announcements */
+
+#announcements-container, #trending-container {
     background-color: #fff;
     padding:20px;
     border-radius: 10px;
@@ -215,4 +222,30 @@ input[type="search"]{
    font-size:12px;
    color: #888;
    padding-top: 3px;
+}
+
+/* trending */
+
+#trending-title{
+    margin-top: 30px;
+}
+
+.trend{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#trending-container:last-child(){
+    margin-bottom: 0;
+}
+
+.trend img{
+    grid-row: 1 / 3;
+    margin-right: 10px;
+}
+
+.trend div{
+    color: #888;
 }
